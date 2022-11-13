@@ -1,0 +1,456 @@
+.img_container {
+    background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh);
+    height: 500px;
+    background-size: cover;
+    background-position: 0%;
+    position: relative;
+}
+
+.search_inner_part {
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    left: 15%;
+    top: 40px;
+    padding: 15px 20px 60px 20px;
+    border-radius: 8px;
+
+}
+
+.search_heading {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    font-weight: 500;
+
+
+}
+
+.search_heading>div {
+    padding-bottom: 10px;
+}
+
+.search_heading>div:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #00a4bb;
+    color: #00a4bb;
+}
+
+.input_stays {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.input_stays>div:first-child {
+    width: 40%;
+    font-size: 2.2rem;
+
+    border: 1px solid rgb(170, 168, 168);
+    color: rgb(94, 92, 92);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+
+    gap: 10px
+}
+
+.input_stays>div:first-child>input {
+    outline: none;
+    border: none;
+    font-size: 18px;
+
+}
+
+.checkin_div,
+.checkout_div {
+    width: 15%;
+    font-size: 1rem;
+    border: 1px solid rgb(170, 168, 168);
+    color: rgb(94, 92, 92);
+    line-height: 1px;
+    padding-left: 10px;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+
+.room_details {
+    display: flex;
+    place-items: center;
+    border: 1px solid rgb(170, 168, 168);
+    color: rgb(94, 92, 92);
+    width: 20%;
+    padding-left: 10px;
+    gap: 15px;
+    border-radius: 4px;
+}
+
+.input_stays input:focus {
+    outline: none;
+}
+
+.input_stays input {
+    color: rgb(94, 92, 92);
+
+}
+
+.stays_checkbox {
+    display: flex;
+    gap: 80px;
+    margin-left: 15px;
+}
+
+.stays_saerch {
+    margin: auto;
+
+    width: 200px;
+}
+
+.stays_saerch>button {
+    background: #c83259;
+    padding: 10px 50px 10px 50px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* flight */
+
+.flight_first_box {
+    display: flex;
+    justify-content: space-between
+}
+
+.booking_types {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking_types>p {
+    padding: 10px 25px;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.booking_types>p:nth-child(1) {
+    background-color: #b2d8dd;
+}
+
+.booking_types>p:hover {
+    background-color: #b2d8dd;
+    cursor: pointer;
+}
+
+.travelingPerson {
+    margin-left: 20px;
+    border: none;
+    font-size: 13px;
+    color: teal;
+}
+
+.travelingPerson:focus {
+    outline: none;
+}
+
+.travelingPerson:hover {
+    text-decoration: underline;
+}
+
+.input_panels {
+    display: flex;
+    margin-top: 20px;
+}
+
+.leaving_from,
+.flight_going_to {
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 4px;
+    color: rgb(94, 92, 92);
+    height: 50px;
+    width: 42%;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    /* text-align: start; */
+    /* font-size: 18px; */
+    padding-left: 18px;
+    box-sizing: border-box;
+    gap: 10px
+}
+
+.leaving_from>input:focus,
+.flight_going_to>input:focus {
+    outline: none;
+}
+
+.leaving_from>input,
+.flight_going_to>input {
+    border: none;
+    font-size: 18px;
+}
+
+.checkin {
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 2px;
+    height: 50px;
+    padding: 0 30px 0 8px;
+    margin-right: 10px;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.checkin>p {
+    margin: 2px 0px;
+    font-size: 13px;
+    color: rgb(94, 92, 92);
+}
+
+.checkin_input,
+.checkout_input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.checkin_input:focus,
+.checkout_input:focus {
+    outline: none;
+}
+
+.checkin,
+.checkout {
+
+
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 2px;
+    height: 50px;
+    padding: 0 30px 0 8px;
+    margin-right: 10px;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.checkin>p,
+.checkout>p {
+    margin: 2px 0px;
+    font-size: 13px;
+    color: rgb(94, 92, 92);
+}
+
+.checkboxes {
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(94, 92, 92);
+}
+
+.addcar {
+    margin-left: 70px;
+}
+
+/* cars */
+
+.cars_input_panels {
+    display: grid;
+    grid-template-areas:
+        "a a b b"
+        "c d e f";
+    gap: 10px;
+}
+
+.cars_input_panels>div:nth-child(1) {
+    grid-area: a;
+    width: 100%;
+}
+
+.cars_input_panels>div:nth-child(2) {
+    grid-area: b;
+    width: 100%;
+}
+
+.cars_input_panels>div:nth-child(3) {
+    grid-area: c;
+}
+
+.cars_input_panels>div:nth-child(4) {
+    grid-area: d;
+}
+
+.cars_input_panels>div:nth-child(5) {
+    grid-area: e;
+}
+
+.cars_input_panels>div:nth-child(6) {
+    grid-area: f;
+}
+
+.choose {
+    font-size: 13px;
+    text-align: start;
+}
+
+.packages_add_buttons>p {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+.return {
+    margin-right: 0;
+}
+
+.things_going_to {
+    width: 56.5%;
+    margin-bottom: 30px;
+
+}
+
+.things_going_to+div,
+.things_going_to+div+div {
+    width: 21%;
+}
+
+.things_going_to+div>input,
+.things_going_to+div+div>input {
+    width: 70%;
+}
+
+.going_to {
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 2px;
+    font-weight: 500;
+    height: 50px;
+    width: 42%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size: 18px;
+    padding-left: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.going_to>span {
+    margin-right: 10px;
+    color: rgb(94, 92, 92)
+}
+
+.cruise {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.cruise_destionation_dropdown {
+    width: 100%;
+    border: none;
+}
+
+.cruise_destionation_dropdown:focus {
+    outline: none;
+}
+
+.travel_box {
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    width: 26%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.cruise_travel_box {
+    width: 100%;
+    height: 50px;
+}
+
+.travel_count_div {
+    display: grid;
+    grid-template-areas:
+        "a a"
+        "b c";
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.travelers {
+    grid-area: a;
+    margin: 0;
+    text-align: start;
+    font-size: 14px;
+    color: rgb(94, 92, 92);
+}
+
+.cruise_person_count {
+    margin: 0;
+}
+
+.cruise_depart {
+    margin-right: 0;
+}
+
+.cruise_depart>input {
+    width: 25%;
+}
+
+.select_destination {
+    border: 1px solid rgb(168, 167, 167);
+    height: 50px;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.select_destination>p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.search_content {
+    position: absolute;
+    background: white;
+    width: 100%;
+    top: -0.9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    left: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-height: 250px;
+    z-index: 1;
+    /* display:none */
+
+}
+
+.search_content>input {
+    padding-left: 20px;
+    width: 90%;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+}
+
+.search_content>div {
+    padding-left: 20px;
+    font-size: 16px
+}
+
+.citysearch>a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: black;
+    font-size: 21px;
+}
+
+.citysearch>a:hover {
+    color: #00a4bb;
+}
